@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: #f5f5f5;
+    background-color: #CCE5CC;
 }
 
 .container-menu {
@@ -8,12 +8,15 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #404EED;
+    background-color: #634D2F;
     padding-bottom: 100px;
+    background-image: url('../../../assets/images/madeira.png');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #logo {
-    width: 124px;
+    width: 40px;
 }
 
 .container-menu .menu {
@@ -59,8 +62,7 @@ body {
 #download-botao:hover,
 #entrar:hover {
     transition: 0.3s;
-    color: #5865F2;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 8px 15px rgba(255, 255, 255, 0.2);
     cursor: pointer;
 }
 
@@ -78,9 +80,39 @@ body {
 
 #botao-textos:hover {
     transition: 0.3s;
-    color: #5865F2;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 8px 15px rgba(255, 255, 255, 0.2);
+}
 
+#botao-contato {
+    color: #000;
+    padding: 15px 20px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font: 800 14px 'Montserrat';
+    border: none;
+    cursor: pointer;
+}
+
+#botao-contato:hover {
+    transition: 0.3s;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+#sob-medida {
+    width: 30%;
+    border-radius: 10px;
+}
+
+#restauracao {
+    width: 40%;
+    border-radius: 10px;
+}
+
+#armarios {
+    width: 40%;
+    border-radius: 10px;
 }
 
 .container-menu .textos {
@@ -99,27 +131,17 @@ body {
 #imagine {
     font-size: 60px;
     font-weight: 900;
+    color: #fff;
+}
+
+#texto-principal {
+    color: #fff;
+    text-align: center;
 }
 
 #download-imagem {
     width: 25px;
     height: 25px;
-}
-
-#tenis {
-    /* width: 800px; */
-}
-
-#peixe {
-    width: 600px;
-}
-
-#facil {
-    background-color: #f6f6f6;
-}
-
-.branco {
-    background-color: #fff;
 }
 
 .background {
@@ -162,7 +184,6 @@ body {
     gap: 20px;
     padding: 100px 20px;
     max-width: 1180px;
-    background-color: #f6f6f6;
 }
 
 .container-sobre .textos {
@@ -175,7 +196,6 @@ body {
 
 }
 
-
 #print {
     width: 100%;
 }
@@ -186,31 +206,44 @@ body {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    /* padding: 50px 20px; */
-    background-image: url(../../../assets/images/estrela.svg);
-    background-repeat: no-repeat;
-    background-size: 60%;
-    background-position: center;
+    padding-bottom: 50px;
 }
 
 h1 {
     font-family: 'Montserrat';
+    color: #546A45;
 }
 
 p {
-    font: 600 1.2rem 'Roboto Slab';
+    font: 600 1.5rem 'Roboto Slab';
+    color: #404040;
+    text-align: justify;
+}
+
+#construcao {
+    width: 80%;
+}
+
+#construcao-texto {
+    text-align: center;
 }
 
 footer {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 20px;
-    /* background-color: #0026ff; */
+    padding: 20px 20px 50px 20px;
+    background-color: #bbd3bb;
 }
 
 #linha1 {
     width: 5%;
+    border: solid 1px #949494;
+}
+
+#linha2 {
+    width: 100%;
+    border: solid 1px #949494;
 }
 
 #copyright {
@@ -221,5 +254,11 @@ footer {
     gap: 10px;
     padding: 10px;
     text-wrap: nowrap;
-    /* background-color: #000; */
+    text-decoration: none;
+    color: #949494;
+    font: 600 14px 'Montserrat';
+}
+
+#copyright:hover {
+    color: #626262;
 }
